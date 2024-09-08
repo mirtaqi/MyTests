@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net6.0;netstandard2.0;net461</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <RootNamespace>Standard.Licensing</RootNamespace>
-    <AssemblyName>Standard.Licensing</AssemblyName>
+    <AssemblyName>Payamed.DBT.Thales</AssemblyName>
     <Authors>Junian Triajianto</Authors>
     <NeutralLanguage>en</NeutralLanguage>
     <Owners>junian</Owners>
@@ -38,7 +38,6 @@ v1.1.9
     <Version>$(AssemblyVersion)</Version>
     <FileVersion>$(AssemblyVersion)</FileVersion>
   </PropertyGroup>
-	
   <ItemGroup>
     <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
     <None Include="..\..\docs\README.md" Pack="true" PackagePath="\" />
